@@ -10,9 +10,6 @@ fn main() {
     let query = &config.query;
     let file_path = &config.file_path;
 
-    println!("Searching for '{query}'");
-    println!("In file '{file_path}'");
-
     if let Err(e) = run(config) {
         println!("Application error: {e}");
         process::exit(1);
