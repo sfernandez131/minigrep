@@ -7,9 +7,6 @@ fn main() {
         println!("Problem parsing input: {err}");
         process::exit(1);
     });
-    let query = &config.query;
-    let file_path = &config.file_path;
-
     if let Err(e) = run(config) {
         println!("Application error: {e}");
         process::exit(1);
