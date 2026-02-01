@@ -1,0 +1,4 @@
+IGNORE_CASE not set.
+                If in PS type '$env:IGNORE_CASE=1; cargo <commands>' to set.
+Are you nobody, too?
+How dreary to be somebody!
